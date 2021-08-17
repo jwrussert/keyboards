@@ -1,0 +1,57 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Lily58_Pro-rescue_GND-Lily58-cache
+#
+DEF Lily58_Pro-rescue_GND-Lily58-cache #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Lily58_Pro-rescue_GND-Lily58-cache" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 1 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 R 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Lily58_Pro-rescue_HOLE-Lily58-cache
+#
+DEF Lily58_Pro-rescue_HOLE-Lily58-cache U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "Lily58_Pro-rescue_HOLE-Lily58-cache" 0 -200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+T 0 0 150 60 0 0 0 HOLE Normal 0 C C
+S 150 200 -150 -150 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Lily58_Pro-rescue_PWR_FLAG-Lily58-cache
+#
+DEF Lily58_Pro-rescue_PWR_FLAG-Lily58-cache #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 0 50 H I C CNN
+F1 "Lily58_Pro-rescue_PWR_FLAG-Lily58-cache" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# Lily58_Pro-rescue_VCC-Lily58-cache
+#
+DEF Lily58_Pro-rescue_VCC-Lily58-cache #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Lily58_Pro-rescue_VCC-Lily58-cache" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
